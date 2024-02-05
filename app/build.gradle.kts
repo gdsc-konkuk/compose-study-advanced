@@ -56,6 +56,7 @@ android {
 dependencies {
 
     implementation(libs.kotlinx.collections.immutable)
+    implementation(libs.kotlinx.serialization.json)
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
