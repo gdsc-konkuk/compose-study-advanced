@@ -13,6 +13,7 @@ androidx-compose-bom = "2024.01.00"
 androidx-hilt-navigation-compose = "1.1.0"
 androidx-lifecycle = "2.7.0"
 androidx-navigation = "2.7.6"
+androidx-paging = "3.2.1"
 
 dagger-hilt = "2.50"
 accompanist = "0.34.0"
@@ -59,7 +60,8 @@ androidx-compose-navigation = { group = "androidx.navigation", name = "navigatio
 androidx-compose-hilt-navigation = { group = "androidx.hilt", name = "hilt-navigation-compose", version.ref = "androidx-hilt-navigation-compose" }
 androidx-lifecycle-viewmodel = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "androidx-lifecycle" }
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
-
+androidx-paging-runtime = { group = "androidx.paging", name = "paging-runtime", version.ref = "androidx-paging" }
+androidx-paging-compose = { group = "androidx.paging", name = "paging-compose", version.ref = "androidx-paging" }
 
 # google
 dagger-hilt = { module = "com.google.dagger:hilt-android", version.ref = "dagger-hilt" }
